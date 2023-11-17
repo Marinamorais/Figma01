@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+    position: relative;
+    pad: 0 2em;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+nav{
+    position: relative;
+}
+
+.navbar-itens{
+    list-style: none;
+    position: fixed;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    right: 0;
+}
+
+.navbar-itens li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-itens li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.navbar-itens li a:hover{
+    color: darkgray;
+}
+
+.default-btn{
+    padding: 15px 20px;
+    background-color: rgb(110, 15, 219);
+    border-radius: 15px;
+}
+
+.default-btn:hover{
+    background-color: #b48be4;
+}
+
+.background{
+    background-image: url(../img/future-technology-web-banner-vector-31185529.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.background h1{
+     color: #FFFFFF;
+     font-size: 32px;
+     font-weight: 600;
+     text-align: center;
+}
+.background h2{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.servicos-container{
+    padding: 5rem 0;
+}
+
+.servicos-container ul{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+.servicos-container ul li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+.fas{
+    font-size: 60px ;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.servicos-container ul li h3{
+    margin-bottom: 25px;
+}
+
+.servicos-container ul li p{
+    margin-bottom: 24px;
+}
+
+.planos-container{
+    padding: 5rem;
+    text-align: center;
+    background-color: rgb(64, 77, 197);
+}
+.planos-container h2{
+    font-size: 36px;
+    margin-top: 0;
+}
+.planos-container h3{
+     font-size: 20px;
+}
+
+.planos-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
